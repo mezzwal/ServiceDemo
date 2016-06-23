@@ -22,7 +22,7 @@ import java.util.List;
 public class UpdateService extends Service {
     private int hitCount = 0;
     private boolean serviceStarted = false;
-    private static final int NOTIFICATION_ID = 11;
+    private static final int NOTIFICATION_ID = 111;
     private static final int INTERVAL = 2000;
 
     private final Handler handler = new Handler();
